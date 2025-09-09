@@ -1,0 +1,42 @@
+[
+  {
+    "q": "Which tram goes to RMIT City Campus?",
+    "a": "Routes 19, 59, and 57 stop near RMIT Melbourne City Campus."
+  },
+  {
+    "q": "How do I buy a Myki card?",
+    "a": "You can buy a Myki at 7-Eleven stores, station ticket offices, or online via PTV."
+  },
+  {
+    "q": "What time does the last tram run?",
+    "a": "Most trams stop around midnight, but some Night Network services run on weekends."
+  },
+  {
+    "q": "Can I use the same Myki card on trains and buses?",
+    "a": "Yes, a Myki card works on trains, trams, and buses across Melbourne."
+  },
+  {
+    "q": "Do trams in Melbourne have conductors?",
+    "a": "No, Melbourne trams do not have conductors. You must touch on with Myki before boarding."
+  },
+  {
+    "q": "Is tram travel free in Melbourne CBD?",
+    "a": "Yes, travel within the Free Tram Zone in Melbourne CBD is free and does not require a Myki."
+  },
+  {
+    "q": "Where can I check tram timetables?",
+    "a": "You can check tram timetables on the PTV website or the PTV mobile app."
+  },
+  {
+    "q": "How often do trams run during peak hours?",
+    "a": "During peak hours, most tram routes run every 6 to 12 minutes."
+  },
+  {
+    "q": "Are trams wheelchair accessible?",
+    "a": "Yes, many trams and stops are wheelchair accessible. PTV provides details on accessible stops."
+  },
+  {
+    "q": "What happens if I forget to touch off?",
+    "a": "On trams you only need to touch on. There is no need to touch off unless your trip ends in Zone 2."
+  }
+]
