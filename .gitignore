@@ -1,0 +1,19 @@
+# === TramMate KB artifacts ===
+# Vector DB indexes
+/data/kb/vectorstore/
+
+# Raw GTFS zips (keep local)
+/data/gtfs/*.zip
+
+# Large model/array files
+*.npz
+*.npy
+*.pt
+*.bin
+*.faiss
+*.h5
+
+# Caches & Python noise
+__pycache__/
+*.pyc
+.cache/
