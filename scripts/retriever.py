@@ -1,54 +1,71 @@
 #!/usr/bin/env python3
-from encodings.aliases import aliases
 from pathlib import Path
 import json
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
+
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 
 ROOT = Path(__file__).resolve().parents[1]
-VSDIR = ROOT/"data/kb/vectorstore/faiss_index"
-ALIASES = ROOT/"data/curated/aliases.json"
+VSDIR = ROOT / "data/kb/vectorstore/faiss_index"
+ALIASES = ROOT / "data/curated/aliases.json"
 
+# Single, shared embedder
 emb = HuggingFaceEmbeddings(
-model_name="sentence-transformers/all-MiniLM-L6-v2",
-encode_kwargs={"normalize_embeddings": True},
+    model_name="sentence-transformers/all-MiniLM-L6-v2",
+    encode_kwargs={"normalize_embeddings": True},
 )
 
-# --- optional: alias expansion for user slang/nicknames ---
-def preprocess_query(q: str) -> str:
+# --- load alias map safely (tolerate missing file / BOM) ---
+def _load_aliases() -> dict:
+    if not ALIASES.exists():
+        return {}
     try:
-        aliases = json.loads(ALIASES.read_text(encoding='utf-8')) if ALIASES.exists() else {}
+        return json.loads(ALIASES.read_text(encoding="utf-8-sig"))
     except Exception:
-        aliases = {}
-    lower = q.lower()
-    for canon, alist in aliases.items():
-        for a in alist:
-            if a.lower() in lower:
-                lower = lower.replace(a.lower(), canon.lower())
-                return lower
+        return {}
+
+# --- optional: alias expansion for user slang/nicknames ---
+def preprocess_query(q: Optional[str]) -> str:
+    """Always return a non-None string. Expand known aliases."""
+    base = (q or "").strip()
+    if not base:
+        return ""
+    alias_map = _load_aliases()
+    text = base.lower()
+    for canon, alist in alias_map.items():
+        for a in (alist or []):
+            if not a:
+                continue
+            a_l = a.lower()
+            if a_l in text:
+                text = text.replace(a_l, str(canon).lower())
+    return text
 
 # --- load vector store and build a retriever ---
 def get_vectorstore() -> FAISS:
+    # allow_dangerous_deserialization required for FAISS docstore pickle
     return FAISS.load_local(str(VSDIR), emb, allow_dangerous_deserialization=True)
 
 def get_retriever(k: int = 6):
     vs = get_vectorstore()
-    # MMR is useful to diversify results for policy + route + landmark blends
-    return vs.as_retriever(search_type="mmr", search_kwargs={
-        "k": k,
-        "fetch_k": 35,
-        "lambda_mult": 0.5,
-    })
+    # MMR => diverse results (policy + routes + landmarks)
+    return vs.as_retriever(
+        search_type="mmr",
+        search_kwargs={"k": k, "fetch_k": 35, "lambda_mult": 0.5},
+    )
 
 # --- metadata filter (manual, since FAISS has no native filters) ---
-def filtered_similar_docs(query: str, where: Dict[str, Any] | None = None, k: int = 6):
+def filtered_similar_docs(query: str, where: Optional[Dict[str, Any]] = None, k: int = 6):
     """Apply a simple post-filter over metadata keys.
-    Example: where={"source": lambda s: "policy" in s or
-    s.endswith("policy_summaries.md")}
+    Example: where={"source": lambda s: s and ("policy" in s or s.endswith("policy_summaries.md"))}
     """
     vs = get_vectorstore()
-    docs = vs.similarity_search(preprocess_query(query), k=25) # grab more, then filter
+    q_norm = preprocess_query(query)
+    if not q_norm:
+        return []
+    # grab more then filter down
+    docs = vs.similarity_search(q_norm, k=25)
     if where:
         kept: List = []
         for d in docs:
@@ -64,6 +81,7 @@ def filtered_similar_docs(query: str, where: Dict[str, Any] | None = None, k: in
 if __name__ == "__main__":
     r = get_retriever()
     q = "Is City Circle free and do I need to tap on?"
-    for i, d in enumerate(r.get_relevant_documents(preprocess_query(q)), 1):
+    qn = preprocess_query(q)
+    for i, d in enumerate(r.invoke(qn), 1):  # modern API
         print("#", i, d.metadata)
         print(d.page_content[:400])

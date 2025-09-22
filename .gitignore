@@ -17,3 +17,7 @@
 __pycache__/
 *.pyc
 .cache/
+
+/.venv/
+/data/kb/vectorstore/
+/data/gtfs/*.zip
