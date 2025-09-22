@@ -1,1 +1,25 @@
+# Global knobs for KB build
+chunk:
+  size_chars: 900
+  overlap_chars: 150
 
+embed:
+  model_name: sentence-transformers/all-MiniLM-L6-v2 # local, no API
+  normalize: true
+
+store:
+  kind: npz # one of: npz | faiss
+  path: data/kb/vectorstore
+
+sources:
+  gtfs_zip: data/gtfs/latest_gtfs.zip
+  cbd_polygon_geojson: data/curated/cbd_polygon.geojson # create once from FTZ map
+  include_pdfs:
+  - data/source_docs/ptv_free_tram_zone_map.pdf
+  - data/source_docs/yarra_trams_network_map_2024.pdf
+  include_markdown:
+  - data/kb/policy_summaries.md
+  - data/kb/route_guides.md
+  - data/kb/landmarks_to_stops.md
+include_json:
+  - faqs.json # keep at repo root or move and update path
