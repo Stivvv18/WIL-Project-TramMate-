@@ -25,23 +25,17 @@ SYSTEM = (
 
 # -------------------- UI SETUP --------------------
 st.set_page_config(page_title=APP_TITLE, page_icon="🚌", layout="wide")
-
 st.title("🚋 TramMate — offline RAG")
 st.caption("Static knowledge base (FAISS + LangChain + Ollama). No live data.")
 
 # Sidebar controls
 with st.sidebar:
     st.subheader("Model & Retrieval")
-    model_name = st.text_input(
-        "Ollama model",
-        value=os.environ.get("TRAMMATE_MODEL", "mistral"),
-        help="Run `ollama pull mistral` or switch to another local model you've pulled.",
-    )
+    model_name = st.text_input( "Ollama model",value=os.environ.get("TRAMMATE_MODEL", "mistral"), help="Run `ollama pull mistral` or switch to another local model you've pulled.")
     temperature = st.slider("Temperature", 0.0, 1.0, 0.2, 0.05)
     top_k = st.slider("Top-K documents", 3, 12, 6)
     mmr_lambda = st.slider("MMR diversity (λ)", 0.0, 1.0, 0.5, 0.05)
     show_chunks = st.checkbox("Show retrieved chunks", value=False)
-
     st.divider()
     st.write("**Tips**")
     st.markdown(
@@ -62,6 +56,7 @@ def get_llm(model: str, temperature: float):
 
 
 @st.cache_resource(show_spinner=False)
+
 def get_chain(model: str, temperature: float, k: int):
     retriever = get_retriever(k=k)  # uses FAISS index on disk
 
@@ -128,6 +123,8 @@ if ask and query.strip():
     else:
         with st.spinner("Retrieving & generating…"):
             # run once to also get docs we formatted inside the chain
+            # build small helper to return docs alongside answer
+            # We'll just re-run the retriever here for visibility
             from scripts.retriever import get_retriever
 
             retriever = get_retriever(k=top_k)
@@ -140,6 +137,7 @@ if ask and query.strip():
             answer_chunks = []
             try:
                 for chunk in chain.stream(query):
+                    # chunk is an AIMessageChunk; print its content
                     text = getattr(chunk, "content", str(chunk))
                     answer_chunks.append(text)
                     ph.markdown("".join(answer_chunks))
