@@ -3,10 +3,11 @@ import os
 from pathlib import Path
 import streamlit as st
 from typing import List
+from operator import itemgetter
 
 # LangChain pieces
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.runnables import RunnablePassthrough
+from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain.schema import Document
 from langchain_ollama import ChatOllama
 
@@ -69,7 +70,13 @@ def get_chain(model: str, temperature: float, k: int):
             src = (d.metadata or {}).get("source", "unknown")
             parts.append(f"{d.page_content}\n[{src}]")
         return "\n\n".join(parts)
-
+        
+    # FIRST STEP: always turn the raw string into {"question": ..., "docs": ...}
+    def build_inputs(q: str):
+        qn = preprocess_query(q)
+        docs = retriever.invoke(qn) if qn else []
+        return {"question": qn, "docs": docs}
+    
     prompt = ChatPromptTemplate.from_messages([
         ("system", SYSTEM),
         ("human", "Question: {question}\n\nContext:\n{context}\n\nAnswer concisely with citations.")
@@ -78,15 +85,11 @@ def get_chain(model: str, temperature: float, k: int):
     llm = get_llm(model, temperature)
 
     chain = (
-        {"question": RunnablePassthrough()}
+         RunnableLambda(build_inputs)  # str -> {"question": str, "docs": [Document]}
         | {
-            "question": lambda q: preprocess_query(q),
-            "docs":      lambda q: retriever.invoke(q),   # <-- modern API
-        }
-        | {
-            "question": lambda x: x["question"],
-            "context":   lambda x: format_docs(x["docs"]),
-        }
+            "question": itemgetter("question"),
+            "context":  itemgetter("docs") | RunnableLambda(format_docs),
+          }
         | prompt
         | llm
     )

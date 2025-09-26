@@ -1,0 +1,362 @@
+route_id,route_no,stop_id,stop_name,order_in_cbd
+aus:vic:vic-03-1:,1,18225,Miles St/Sturt St #19,000013.00
+aus:vic:vic-03-1:,1,18226,Grant St/Sturt St #18,000014.00
+aus:vic:vic-03-1:,1,18227,Arts Precinct/Sturt St #17,000015.00
+aus:vic:vic-03-1:,1,19684,Arts Precinct/St Kilda Rd #14,000016.00
+aus:vic:vic-03-1:,1,19685,Federation Square/Swanston St #13,000017.00
+aus:vic:vic-03-1:,1,19686,City Square/Swanston St #11,000018.00
+aus:vic:vic-03-1:,1,19687,Bourke Street Mall/Swanston St #10,000019.00
+aus:vic:vic-03-1:,1,19689,Melbourne Central Station/Swanston St #8,000020.00
+aus:vic:vic-03-1:,1,19495,Melbourne Central Station/Swanston St #8,000028.00
+aus:vic:vic-03-1:,1,19497,Bourke Street Mall/Swanston St #10,000029.00
+aus:vic:vic-03-1:,1,19498,City Square/Swanston St #11,000030.00
+aus:vic:vic-03-1:,1,19499,Federation Square/Swanston St #13,000031.00
+aus:vic:vic-03-1:,1,19500,Arts Precinct/St Kilda Rd #14,000032.00
+aus:vic:vic-03-1:,1,18229,Arts Precinct/Sturt St #17,000033.00
+aus:vic:vic-03-1:,1,18230,Grant St/Sturt St #18,000034.00
+aus:vic:vic-03-1:,1,18231,Miles St/Sturt St #19,000035.00
+aus:vic:vic-03-109:,109,19369,Southbank Tram Depot/Light Rail #125A,000005.00
+aus:vic:vic-03-109:,109,18184,Clarendon St/Whiteman St #125,000006.00
+aus:vic:vic-03-109:,109,18185,Casino/MCEC/Clarendon St #124A,000007.00
+aus:vic:vic-03-109:,109,18186,Batman Park/Spencer St #124,000008.00
+aus:vic:vic-03-109:,109,17906,Spencer St/Collins St #1,000009.00
+aus:vic:vic-03-109:,109,17908,William St/Collins St #3,000010.00
+aus:vic:vic-03-109:,109,17910,Elizabeth St/Collins St #5,000011.00
+aus:vic:vic-03-109:,109,17911,Melbourne Town Hall/Collins St #6,000012.00
+aus:vic:vic-03-109:,109,22152,Exhibition St/Collins St #7,000013.00
+aus:vic:vic-03-109:,109,17914,Spring St/Collins St #8,000014.00
+aus:vic:vic-03-109:,109,17915,Parliament Railway Station/Macarthur St #10,000015.00
+aus:vic:vic-03-109:,109,18006,Albert St/Gisborne St #11,000016.00
+aus:vic:vic-03-109:,109,22100,Smith St/Victoria Pde #15,000019.00
+aus:vic:vic-03-109:,109,19728,Smith St/Victoria Pde #15,000038.00
+aus:vic:vic-03-109:,109,19726,Lansdowne St/Victoria Pde #13,000039.00
+aus:vic:vic-03-109:,109,17896,Albert St/Gisborne St #11,000041.00
+aus:vic:vic-03-109:,109,17897,Parliament Railway Station/Macarthur St #10,000042.00
+aus:vic:vic-03-109:,109,17898,Spring St/Collins St #8,000043.00
+aus:vic:vic-03-109:,109,22153,Exhibition St/Collins St #7,000044.00
+aus:vic:vic-03-109:,109,17901,Melbourne Town Hall/Collins St #6,000045.00
+aus:vic:vic-03-109:,109,17902,Elizabeth St/Collins St #5,000046.00
+aus:vic:vic-03-109:,109,17903,William St/Collins St #3,000047.00
+aus:vic:vic-03-109:,109,17905,Spencer St/Collins St #1,000048.00
+aus:vic:vic-03-109:,109,18196,Batman Park/Spencer St #124,000049.00
+aus:vic:vic-03-109:,109,18197,Casino/MCEC/Clarendon St #124A,000050.00
+aus:vic:vic-03-109:,109,19304,Port Junction/Whiteman St #125,000051.00
+aus:vic:vic-03-109:,109,19721,Southbank Tram Depot/Light Rail #125A,000052.00
+aus:vic:vic-03-11:,11,43476,Batman's Hill/Collins St #D15,000004.00
+aus:vic:vic-03-11:,11,43477,Southern Cross Station/Collins St #D14,000005.00
+aus:vic:vic-03-11:,11,17906,Spencer St/Collins St #1,000006.00
+aus:vic:vic-03-11:,11,17908,William St/Collins St #3,000007.00
+aus:vic:vic-03-11:,11,17910,Elizabeth St/Collins St #5,000008.00
+aus:vic:vic-03-11:,11,17911,Melbourne Town Hall/Collins St #6,000009.00
+aus:vic:vic-03-11:,11,22152,Exhibition St/Collins St #7,000010.00
+aus:vic:vic-03-11:,11,17914,Spring St/Collins St #8,000011.00
+aus:vic:vic-03-11:,11,17915,Parliament Railway Station/Macarthur St #10,000012.00
+aus:vic:vic-03-11:,11,18006,Albert St/Gisborne St #11,000013.00
+aus:vic:vic-03-11:,11,17896,Albert St/Gisborne St #11,000036.00
+aus:vic:vic-03-11:,11,17897,Parliament Railway Station/Macarthur St #10,000037.00
+aus:vic:vic-03-11:,11,17898,Spring St/Collins St #8,000038.00
+aus:vic:vic-03-11:,11,22153,Exhibition St/Collins St #7,000039.00
+aus:vic:vic-03-11:,11,17901,Melbourne Town Hall/Collins St #6,000040.00
+aus:vic:vic-03-11:,11,17902,Elizabeth St/Collins St #5,000041.00
+aus:vic:vic-03-11:,11,17903,William St/Collins St #3,000042.00
+aus:vic:vic-03-11:,11,17905,Spencer St/Collins St #1,000043.00
+aus:vic:vic-03-11:,11,43472,Southern Cross Station/Collins St #D14,000044.00
+aus:vic:vic-03-11:,11,43473,Batman's Hill/Collins St #D15,000045.00
+aus:vic:vic-03-12:,12,19369,Southbank Tram Depot/Light Rail #125A,000001.00
+aus:vic:vic-03-12:,12,18184,Clarendon St/Whiteman St #125,000002.00
+aus:vic:vic-03-12:,12,19728,Smith St/Victoria Pde #15,000009.00
+aus:vic:vic-03-12:,12,19726,Lansdowne St/Victoria Pde #13,000010.00
+aus:vic:vic-03-12:,12,17896,Albert St/Gisborne St #11,000012.00
+aus:vic:vic-03-12:,12,17897,Parliament Railway Station/Macarthur St #10,000013.00
+aus:vic:vic-03-12:,12,17898,Spring St/Collins St #8,000014.00
+aus:vic:vic-03-12:,12,22153,Exhibition St/Collins St #7,000015.00
+aus:vic:vic-03-12:,12,17901,Melbourne Town Hall/Collins St #6,000016.00
+aus:vic:vic-03-12:,12,17902,Elizabeth St/Collins St #5,000017.00
+aus:vic:vic-03-12:,12,17903,William St/Collins St #3,000018.00
+aus:vic:vic-03-12:,12,4125,City Rd/Clarendon St #126,000019.00
+aus:vic:vic-03-12:,12,17905,Spencer St/Collins St #1,000019.00
+aus:vic:vic-03-12:,12,18185,Casino/MCEC/Clarendon St #124A,000020.00
+aus:vic:vic-03-12:,12,18196,Batman Park/Spencer St #124,000020.00
+aus:vic:vic-03-12:,12,18186,Batman Park/Spencer St #124,000021.00
+aus:vic:vic-03-12:,12,18197,Casino/MCEC/Clarendon St #124A,000021.00
+aus:vic:vic-03-12:,12,17906,Spencer St/Collins St #1,000022.00
+aus:vic:vic-03-12:,12,4324,City Rd/Clarendon St #126,000022.00
+aus:vic:vic-03-12:,12,19304,Port Junction/Whiteman St #125,000022.00
+aus:vic:vic-03-12:,12,17908,William St/Collins St #3,000023.00
+aus:vic:vic-03-12:,12,19721,Southbank Tram Depot/Light Rail #125A,000023.00
+aus:vic:vic-03-12:,12,17910,Elizabeth St/Collins St #5,000024.00
+aus:vic:vic-03-12:,12,17911,Melbourne Town Hall/Collins St #6,000025.00
+aus:vic:vic-03-12:,12,22152,Exhibition St/Collins St #7,000026.00
+aus:vic:vic-03-12:,12,17914,Spring St/Collins St #8,000027.00
+aus:vic:vic-03-12:,12,17915,Parliament Railway Station/Macarthur St #10,000028.00
+aus:vic:vic-03-12:,12,18006,Albert St/Gisborne St #11,000029.00
+aus:vic:vic-03-12:,12,22100,Smith St/Victoria Pde #15,000032.00
+aus:vic:vic-03-16:,16,19495,Melbourne Central Station/Swanston St #8,000005.00
+aus:vic:vic-03-16:,16,19497,Bourke Street Mall/Swanston St #10,000006.00
+aus:vic:vic-03-16:,16,19498,City Square/Swanston St #11,000007.00
+aus:vic:vic-03-16:,16,19499,Federation Square/Swanston St #13,000008.00
+aus:vic:vic-03-16:,16,19500,Arts Precinct/St Kilda Rd #14,000009.00
+aus:vic:vic-03-16:,16,46881,Grant St-Police Memorial/St Kilda Rd #17,000010.00
+aus:vic:vic-03-16:,16,19504,Shrine of Remembrance/St Kilda Rd #19,000011.00
+aus:vic:vic-03-16:,16,19679,Shrine of Remembrance/St Kilda Rd #19,000066.00
+aus:vic:vic-03-16:,16,46880,Grant St-Police Memorial/St Kilda Rd #17,000067.00
+aus:vic:vic-03-16:,16,19684,Arts Precinct/St Kilda Rd #14,000068.00
+aus:vic:vic-03-16:,16,19685,Federation Square/Swanston St #13,000069.00
+aus:vic:vic-03-16:,16,19686,City Square/Swanston St #11,000070.00
+aus:vic:vic-03-16:,16,19687,Bourke Street Mall/Swanston St #10,000071.00
+aus:vic:vic-03-16:,16,19689,Melbourne Central Station/Swanston St #8,000072.00
+aus:vic:vic-03-19:,19,17850,Flinders Street Railway Station/Elizabeth St #1,000001.00
+aus:vic:vic-03-19:,19,17851,Collins St/Elizabeth St #2,000002.00
+aus:vic:vic-03-19:,19,17852,Bourke Street Mall/Elizabeth St #3,000003.00
+aus:vic:vic-03-19:,19,17854,Melbourne Central Station/Elizabeth St #5,000004.00
+aus:vic:vic-03-19:,19,17873,Melbourne Central Station/Elizabeth St #5,000032.00
+aus:vic:vic-03-19:,19,17875,Bourke Street Mall/Elizabeth St #3,000033.00
+aus:vic:vic-03-19:,19,17876,Collins St/Elizabeth St #2,000034.00
+aus:vic:vic-03-19:,19,17877,Flinders Street Railway Station/Elizabeth St #1,000035.00
+aus:vic:vic-03-3:,3,19495,Melbourne Central Station/Swanston St #8,000005.00
+aus:vic:vic-03-3:,3,19497,Bourke Street Mall/Swanston St #10,000006.00
+aus:vic:vic-03-3:,3,19498,City Square/Swanston St #11,000007.00
+aus:vic:vic-03-3:,3,19499,Federation Square/Swanston St #13,000008.00
+aus:vic:vic-03-3:,3,19500,Arts Precinct/St Kilda Rd #14,000009.00
+aus:vic:vic-03-3:,3,46881,Grant St-Police Memorial/St Kilda Rd #17,000010.00
+aus:vic:vic-03-3:,3,19504,Shrine of Remembrance/St Kilda Rd #19,000011.00
+aus:vic:vic-03-3:,3,19679,Shrine of Remembrance/St Kilda Rd #19,000041.00
+aus:vic:vic-03-3:,3,46880,Grant St-Police Memorial/St Kilda Rd #17,000042.00
+aus:vic:vic-03-3:,3,19684,Arts Precinct/St Kilda Rd #14,000043.00
+aus:vic:vic-03-3:,3,19685,Federation Square/Swanston St #13,000044.00
+aus:vic:vic-03-3:,3,19686,City Square/Swanston St #11,000045.00
+aus:vic:vic-03-3:,3,19687,Bourke Street Mall/Swanston St #10,000046.00
+aus:vic:vic-03-3:,3,19689,Melbourne Central Station/Swanston St #8,000047.00
+aus:vic:vic-03-30:,30,46864,Spencer St/La Trobe St #1,000003.00
+aus:vic:vic-03-30:,30,46865,Flagstaff Station/La Trobe St  #3,000004.00
+aus:vic:vic-03-30:,30,46868,Exhibition St/La Trobe St #8,000004.00
+aus:vic:vic-03-30:,30,18045,Melbourne Central Station/La Trobe St  #5,000005.00
+aus:vic:vic-03-30:,30,18030,Melbourne Central & State Library stations/La Trobe St (Melb... #6,000005.00
+aus:vic:vic-03-30:,30,18046,Melbourne Central & State Library stations/La Trobe St (Melb... #6,000006.00
+aus:vic:vic-03-30:,30,46866,Melbourne Central Station/La Trobe St  #5,000006.00
+aus:vic:vic-03-30:,30,18033,Flagstaff Station/La Trobe St  #3,000007.00
+aus:vic:vic-03-30:,30,46863,Spencer St/La Trobe St #1,000008.00
+aus:vic:vic-03-35:,35,46864,Spencer St/La Trobe St #1,000005.00
+aus:vic:vic-03-35:,35,46865,Flagstaff Station/La Trobe St  #3,000006.00
+aus:vic:vic-03-35:,35,18045,Melbourne Central Station/La Trobe St  #5,000007.00
+aus:vic:vic-03-35:,35,18046,Melbourne Central & State Library stations/La Trobe St (Melb... #6,000008.00
+aus:vic:vic-03-35:,35,17880,Albert St/Nicholson St #10,000012.00
+aus:vic:vic-03-35:,35,20979,Bourke St/Spring St #0,000013.00
+aus:vic:vic-03-35:,35,18105,Spring St/Flinders St #8,000014.00
+aus:vic:vic-03-35:,35,18174,Russell St/Flinders St #6,000015.00
+aus:vic:vic-03-35:,35,18175,Swanston St/Flinders St #5,000016.00
+aus:vic:vic-03-35:,35,18176,Elizabeth St/Flinders St #4,000017.00
+aus:vic:vic-03-35:,35,18178,Market St/Flinders St #3,000018.00
+aus:vic:vic-03-35:,35,21233,Melbourne Aquarium/Flinders St #2,000019.00
+aus:vic:vic-03-35:,35,21232,Spencer St/Flinders St #1,000020.00
+aus:vic:vic-03-35:,35,18179,Victoria Police Centre/Flinders St #D6,000021.00
+aus:vic:vic-03-35:,35,18180,South Wharf/Wurundjeri Way #D5,000022.00
+aus:vic:vic-03-48:,48,43476,Batman's Hill/Collins St #D15,000004.00
+aus:vic:vic-03-48:,48,43477,Southern Cross Station/Collins St #D14,000005.00
+aus:vic:vic-03-48:,48,17906,Spencer St/Collins St #1,000006.00
+aus:vic:vic-03-48:,48,17908,William St/Collins St #3,000007.00
+aus:vic:vic-03-48:,48,17910,Elizabeth St/Collins St #5,000008.00
+aus:vic:vic-03-48:,48,17911,Melbourne Town Hall/Collins St #6,000009.00
+aus:vic:vic-03-48:,48,22152,Exhibition St/Collins St #7,000010.00
+aus:vic:vic-03-48:,48,17914,Spring St/Collins St #8,000011.00
+aus:vic:vic-03-48:,48,18093,Lansdowne St/Wellington Pde #9,000012.00
+aus:vic:vic-03-48:,48,18094,Jolimont Rd/Wellington Pde #10,000013.00
+aus:vic:vic-03-48:,48,18095,Jolimont Station-MCG/Wellington Pde #11,000014.00
+aus:vic:vic-03-48:,48,18102,Jolimont Station-MCG/Wellington Pde #11,000034.00
+aus:vic:vic-03-48:,48,18103,Jolimont Rd/Wellington Pde #10,000035.00
+aus:vic:vic-03-48:,48,18104,Lansdowne St/Wellington Pde #9,000036.00
+aus:vic:vic-03-48:,48,17898,Spring St/Collins St #8,000037.00
+aus:vic:vic-03-48:,48,22153,Exhibition St/Collins St #7,000038.00
+aus:vic:vic-03-48:,48,17901,Melbourne Town Hall/Collins St #6,000039.00
+aus:vic:vic-03-48:,48,17902,Elizabeth St/Collins St #5,000040.00
+aus:vic:vic-03-48:,48,17903,William St/Collins St #3,000041.00
+aus:vic:vic-03-48:,48,17905,Spencer St/Collins St #1,000042.00
+aus:vic:vic-03-48:,48,43472,Southern Cross Station/Collins St #D14,000043.00
+aus:vic:vic-03-48:,48,43473,Batman's Hill/Collins St #D15,000044.00
+aus:vic:vic-03-5:,5,19495,Melbourne Central Station/Swanston St #8,000005.00
+aus:vic:vic-03-5:,5,19497,Bourke Street Mall/Swanston St #10,000006.00
+aus:vic:vic-03-5:,5,19498,City Square/Swanston St #11,000007.00
+aus:vic:vic-03-5:,5,19499,Federation Square/Swanston St #13,000008.00
+aus:vic:vic-03-5:,5,19500,Arts Precinct/St Kilda Rd #14,000009.00
+aus:vic:vic-03-5:,5,46881,Grant St-Police Memorial/St Kilda Rd #17,000010.00
+aus:vic:vic-03-5:,5,19504,Shrine of Remembrance/St Kilda Rd #19,000011.00
+aus:vic:vic-03-5:,5,19679,Shrine of Remembrance/St Kilda Rd #19,000030.00
+aus:vic:vic-03-5:,5,46880,Grant St-Police Memorial/St Kilda Rd #17,000031.00
+aus:vic:vic-03-5:,5,19684,Arts Precinct/St Kilda Rd #14,000032.00
+aus:vic:vic-03-5:,5,19685,Federation Square/Swanston St #13,000033.00
+aus:vic:vic-03-5:,5,19686,City Square/Swanston St #11,000034.00
+aus:vic:vic-03-5:,5,19687,Bourke Street Mall/Swanston St #10,000035.00
+aus:vic:vic-03-5:,5,19689,Melbourne Central Station/Swanston St #8,000036.00
+aus:vic:vic-03-57:,57,17850,Flinders Street Railway Station/Elizabeth St #1,000001.00
+aus:vic:vic-03-57:,57,17851,Collins St/Elizabeth St #2,000002.00
+aus:vic:vic-03-57:,57,17852,Bourke Street Mall/Elizabeth St #3,000003.00
+aus:vic:vic-03-57:,57,17854,Melbourne Central Station/Elizabeth St #5,000004.00
+aus:vic:vic-03-57:,57,17873,Melbourne Central Station/Elizabeth St #5,000038.00
+aus:vic:vic-03-57:,57,17875,Bourke Street Mall/Elizabeth St #3,000039.00
+aus:vic:vic-03-57:,57,17876,Collins St/Elizabeth St #2,000040.00
+aus:vic:vic-03-57:,57,17877,Flinders Street Railway Station/Elizabeth St #1,000041.00
+aus:vic:vic-03-58:,58,18233,City Rd/Kings Way #116,000021.00
+aus:vic:vic-03-58:,58,18450,Casino/Southbank/Queens Bridge St #115,000022.00
+aus:vic:vic-03-58:,58,18465,Flinders St/Queens Bridge St #1,000023.00
+aus:vic:vic-03-58:,58,18469,Collins St/William St #4,000024.00
+aus:vic:vic-03-58:,58,18199,Bourke St/William St #5,000025.00
+aus:vic:vic-03-58:,58,18201,Flagstaff Railway Station/William St #7,000026.00
+aus:vic:vic-03-58:,58,18208,Flagstaff Railway Station/William St #7,000028.00
+aus:vic:vic-03-58:,58,18210,Bourke St/William St #5,000029.00
+aus:vic:vic-03-58:,58,18211,Collins St/William St #4,000030.00
+aus:vic:vic-03-58:,58,18214,Flinders St/Queens Bridge St #1,000031.00
+aus:vic:vic-03-58:,58,18215,Casino/Southbank/Queens Bridge St #115,000032.00
+aus:vic:vic-03-58:,58,22612,City Rd/Kings Way #116,000033.00
+aus:vic:vic-03-59:,59,17850,Flinders Street Railway Station/Elizabeth St #1,000001.00
+aus:vic:vic-03-59:,59,17851,Collins St/Elizabeth St #2,000002.00
+aus:vic:vic-03-59:,59,17852,Bourke Street Mall/Elizabeth St #3,000003.00
+aus:vic:vic-03-59:,59,17854,Melbourne Central Station/Elizabeth St #5,000004.00
+aus:vic:vic-03-59:,59,17873,Melbourne Central Station/Elizabeth St #5,000043.00
+aus:vic:vic-03-59:,59,17875,Bourke Street Mall/Elizabeth St #3,000044.00
+aus:vic:vic-03-59:,59,17876,Collins St/Elizabeth St #2,000045.00
+aus:vic:vic-03-59:,59,17877,Flinders Street Railway Station/Elizabeth St #1,000046.00
+aus:vic:vic-03-6:,6,19495,Melbourne Central Station/Swanston St #8,000026.00
+aus:vic:vic-03-6:,6,19497,Bourke Street Mall/Swanston St #10,000027.00
+aus:vic:vic-03-6:,6,19498,City Square/Swanston St #11,000028.00
+aus:vic:vic-03-6:,6,19499,Federation Square/Swanston St #13,000029.00
+aus:vic:vic-03-6:,6,19500,Arts Precinct/St Kilda Rd #14,000030.00
+aus:vic:vic-03-6:,6,46881,Grant St-Police Memorial/St Kilda Rd #17,000031.00
+aus:vic:vic-03-6:,6,19504,Shrine of Remembrance/St Kilda Rd #19,000032.00
+aus:vic:vic-03-6:,6,19679,Shrine of Remembrance/St Kilda Rd #19,000034.00
+aus:vic:vic-03-6:,6,46880,Grant St-Police Memorial/St Kilda Rd #17,000035.00
+aus:vic:vic-03-6:,6,19684,Arts Precinct/St Kilda Rd #14,000036.00
+aus:vic:vic-03-6:,6,19685,Federation Square/Swanston St #13,000037.00
+aus:vic:vic-03-6:,6,19686,City Square/Swanston St #11,000038.00
+aus:vic:vic-03-6:,6,19687,Bourke Street Mall/Swanston St #10,000039.00
+aus:vic:vic-03-6:,6,19689,Melbourne Central Station/Swanston St #8,000040.00
+aus:vic:vic-03-64:,64,19495,Melbourne Central Station/Swanston St #8,000005.00
+aus:vic:vic-03-64:,64,19497,Bourke Street Mall/Swanston St #10,000006.00
+aus:vic:vic-03-64:,64,19498,City Square/Swanston St #11,000007.00
+aus:vic:vic-03-64:,64,19499,Federation Square/Swanston St #13,000008.00
+aus:vic:vic-03-64:,64,19500,Arts Precinct/St Kilda Rd #14,000009.00
+aus:vic:vic-03-64:,64,46881,Grant St-Police Memorial/St Kilda Rd #17,000010.00
+aus:vic:vic-03-64:,64,19504,Shrine of Remembrance/St Kilda Rd #19,000011.00
+aus:vic:vic-03-64:,64,19679,Shrine of Remembrance/St Kilda Rd #19,000044.00
+aus:vic:vic-03-64:,64,46880,Grant St-Police Memorial/St Kilda Rd #17,000045.00
+aus:vic:vic-03-64:,64,19684,Arts Precinct/St Kilda Rd #14,000046.00
+aus:vic:vic-03-64:,64,19685,Federation Square/Swanston St #13,000047.00
+aus:vic:vic-03-64:,64,19686,City Square/Swanston St #11,000048.00
+aus:vic:vic-03-64:,64,19687,Bourke Street Mall/Swanston St #10,000049.00
+aus:vic:vic-03-64:,64,19689,Melbourne Central Station/Swanston St #8,000050.00
+aus:vic:vic-03-67:,67,19495,Melbourne Central Station/Swanston St #8,000005.00
+aus:vic:vic-03-67:,67,19497,Bourke Street Mall/Swanston St #10,000006.00
+aus:vic:vic-03-67:,67,19498,City Square/Swanston St #11,000007.00
+aus:vic:vic-03-67:,67,19499,Federation Square/Swanston St #13,000008.00
+aus:vic:vic-03-67:,67,19500,Arts Precinct/St Kilda Rd #14,000009.00
+aus:vic:vic-03-67:,67,46881,Grant St-Police Memorial/St Kilda Rd #17,000010.00
+aus:vic:vic-03-67:,67,19504,Shrine of Remembrance/St Kilda Rd #19,000011.00
+aus:vic:vic-03-67:,67,19679,Shrine of Remembrance/St Kilda Rd #19,000046.00
+aus:vic:vic-03-67:,67,46880,Grant St-Police Memorial/St Kilda Rd #17,000047.00
+aus:vic:vic-03-67:,67,19684,Arts Precinct/St Kilda Rd #14,000048.00
+aus:vic:vic-03-67:,67,19685,Federation Square/Swanston St #13,000049.00
+aus:vic:vic-03-67:,67,19686,City Square/Swanston St #11,000050.00
+aus:vic:vic-03-67:,67,19687,Bourke Street Mall/Swanston St #10,000051.00
+aus:vic:vic-03-67:,67,19689,Melbourne Central Station/Swanston St #8,000052.00
+aus:vic:vic-03-70:,70,18055,South Wharf/Wurundjeri Way #D5,000006.00
+aus:vic:vic-03-70:,70,18056,Flinders Street West/Flinders St #D6,000007.00
+aus:vic:vic-03-70:,70,21231,Spencer St/Flinders St #1,000008.00
+aus:vic:vic-03-70:,70,21234,Melbourne Aquarium/Flinders St #2,000009.00
+aus:vic:vic-03-70:,70,18087,Market St/Flinders St #3,000010.00
+aus:vic:vic-03-70:,70,18089,Elizabeth St/Flinders St #4,000011.00
+aus:vic:vic-03-70:,70,18090,Swanston St/Flinders St #5,000012.00
+aus:vic:vic-03-70:,70,18091,Russell St/Flinders St #6,000013.00
+aus:vic:vic-03-70:,70,22903,William Barak Bridge/Melbourne Park #7A,000014.00
+aus:vic:vic-03-70:,70,18108,Rod Laver Arena/MCG Gates 1-3 #7B,000015.00
+aus:vic:vic-03-70:,70,18116,MCG Gates 4-7/John Cain Arena #7C,000016.00
+aus:vic:vic-03-70:,70,18161,MCG Gates 4-7/John Cain Arena #7C,000044.00
+aus:vic:vic-03-70:,70,18172,Rod Laver Arena/MCG Gates 1-3 #7B,000045.00
+aus:vic:vic-03-70:,70,22904,William Barak Bridge/Melbourne Park #7A,000046.00
+aus:vic:vic-03-70:,70,18174,Russell St/Flinders St #6,000047.00
+aus:vic:vic-03-70:,70,18175,Swanston St/Flinders St #5,000048.00
+aus:vic:vic-03-70:,70,18176,Elizabeth St/Flinders St #4,000049.00
+aus:vic:vic-03-70:,70,18178,Market St/Flinders St #3,000050.00
+aus:vic:vic-03-70:,70,21233,Melbourne Aquarium/Flinders St #2,000051.00
+aus:vic:vic-03-70:,70,21232,Spencer St/Flinders St #1,000052.00
+aus:vic:vic-03-70:,70,18179,Victoria Police Centre/Flinders St #D6,000053.00
+aus:vic:vic-03-70:,70,18180,South Wharf/Wurundjeri Way #D5,000054.00
+aus:vic:vic-03-72:,72,19495,Melbourne Central Station/Swanston St #8,000005.00
+aus:vic:vic-03-72:,72,19497,Bourke Street Mall/Swanston St #10,000006.00
+aus:vic:vic-03-72:,72,19498,City Square/Swanston St #11,000007.00
+aus:vic:vic-03-72:,72,19499,Federation Square/Swanston St #13,000008.00
+aus:vic:vic-03-72:,72,19500,Arts Precinct/St Kilda Rd #14,000009.00
+aus:vic:vic-03-72:,72,46881,Grant St-Police Memorial/St Kilda Rd #17,000010.00
+aus:vic:vic-03-72:,72,19504,Shrine of Remembrance/St Kilda Rd #19,000011.00
+aus:vic:vic-03-72:,72,19679,Shrine of Remembrance/St Kilda Rd #19,000048.00
+aus:vic:vic-03-72:,72,46880,Grant St-Police Memorial/St Kilda Rd #17,000049.00
+aus:vic:vic-03-72:,72,19684,Arts Precinct/St Kilda Rd #14,000050.00
+aus:vic:vic-03-72:,72,19685,Federation Square/Swanston St #13,000051.00
+aus:vic:vic-03-72:,72,19686,City Square/Swanston St #11,000052.00
+aus:vic:vic-03-72:,72,19687,Bourke Street Mall/Swanston St #10,000053.00
+aus:vic:vic-03-72:,72,19689,Melbourne Central Station/Swanston St #8,000054.00
+aus:vic:vic-03-75:,75,18055,South Wharf/Wurundjeri Way #D5,000004.00
+aus:vic:vic-03-75:,75,18056,Flinders Street West/Flinders St #D6,000005.00
+aus:vic:vic-03-75:,75,21231,Spencer St/Flinders St #1,000006.00
+aus:vic:vic-03-75:,75,21234,Melbourne Aquarium/Flinders St #2,000007.00
+aus:vic:vic-03-75:,75,18087,Market St/Flinders St #3,000008.00
+aus:vic:vic-03-75:,75,18089,Elizabeth St/Flinders St #4,000009.00
+aus:vic:vic-03-75:,75,18090,Swanston St/Flinders St #5,000010.00
+aus:vic:vic-03-75:,75,18091,Russell St/Flinders St #6,000011.00
+aus:vic:vic-03-75:,75,18092,Spring St/Flinders St #8,000012.00
+aus:vic:vic-03-75:,75,18093,Lansdowne St/Wellington Pde #9,000013.00
+aus:vic:vic-03-75:,75,18094,Jolimont Rd/Wellington Pde #10,000014.00
+aus:vic:vic-03-75:,75,18095,Jolimont Station-MCG/Wellington Pde #11,000015.00
+aus:vic:vic-03-75:,75,18102,Jolimont Station-MCG/Wellington Pde #11,000060.00
+aus:vic:vic-03-75:,75,18103,Jolimont Rd/Wellington Pde #10,000061.00
+aus:vic:vic-03-75:,75,18104,Lansdowne St/Wellington Pde #9,000062.00
+aus:vic:vic-03-75:,75,18105,Spring St/Flinders St #8,000063.00
+aus:vic:vic-03-75:,75,18174,Russell St/Flinders St #6,000064.00
+aus:vic:vic-03-75:,75,18175,Swanston St/Flinders St #5,000065.00
+aus:vic:vic-03-75:,75,18176,Elizabeth St/Flinders St #4,000066.00
+aus:vic:vic-03-75:,75,18178,Market St/Flinders St #3,000067.00
+aus:vic:vic-03-75:,75,21233,Melbourne Aquarium/Flinders St #2,000068.00
+aus:vic:vic-03-75:,75,21232,Spencer St/Flinders St #1,000069.00
+aus:vic:vic-03-75:,75,18179,Victoria Police Centre/Flinders St #D6,000070.00
+aus:vic:vic-03-75:,75,18180,South Wharf/Wurundjeri Way #D5,000071.00
+aus:vic:vic-03-86:,86,18192,Lonsdale St/Spencer St #120,000005.00
+aus:vic:vic-03-86:,86,17849,Spencer St/Bourke St #1,000006.00
+aus:vic:vic-03-86:,86,17885,William St/Bourke St #3,000007.00
+aus:vic:vic-03-86:,86,17886,Queen St/Bourke St #4,000008.00
+aus:vic:vic-03-86:,86,17887,Elizabeth St/Bourke St #5,000009.00
+aus:vic:vic-03-86:,86,17888,Swanston St/Bourke St #6,000010.00
+aus:vic:vic-03-86:,86,17889,Russell St/Bourke St #7,000011.00
+aus:vic:vic-03-86:,86,17891,Spring St/Bourke St #9,000012.00
+aus:vic:vic-03-86:,86,17892,Albert St/Nicholson St #10,000013.00
+aus:vic:vic-03-86:,86,17880,Albert St/Nicholson St #10,000058.00
+aus:vic:vic-03-86:,86,17882,Spring St/Bourke St #9,000059.00
+aus:vic:vic-03-86:,86,17591,Russell St/Bourke St #7,000060.00
+aus:vic:vic-03-86:,86,17593,Swanston St/Bourke St #6,000061.00
+aus:vic:vic-03-86:,86,17594,Elizabeth St/Bourke St #5,000062.00
+aus:vic:vic-03-86:,86,17596,Queen St/Bourke St #4,000063.00
+aus:vic:vic-03-86:,86,17597,William St/Bourke St #3,000064.00
+aus:vic:vic-03-86:,86,17848,Spencer St/Bourke St #1,000065.00
+aus:vic:vic-03-86:,86,18189,Lonsdale St/Spencer St #120,000066.00
+aus:vic:vic-03-86:,86,18190,La Trobe St/Spencer St #119,000067.00
+aus:vic:vic-03-96:,96,17880,Albert St/Nicholson St #10,000014.00
+aus:vic:vic-03-96:,96,18184,Clarendon St/Whiteman St #125,000014.00
+aus:vic:vic-03-96:,96,17882,Spring St/Bourke St #9,000015.00
+aus:vic:vic-03-96:,96,18185,Casino/MCEC/Clarendon St #124A,000015.00
+aus:vic:vic-03-96:,96,17591,Russell St/Bourke St #7,000016.00
+aus:vic:vic-03-96:,96,18186,Batman Park/Spencer St #124,000016.00
+aus:vic:vic-03-96:,96,17593,Swanston St/Bourke St #6,000017.00
+aus:vic:vic-03-96:,96,18187,Southern Cross Railway Station/Spencer St #122,000017.00
+aus:vic:vic-03-96:,96,17594,Elizabeth St/Bourke St #5,000018.00
+aus:vic:vic-03-96:,96,17849,Spencer St/Bourke St #1,000018.00
+aus:vic:vic-03-96:,96,17596,Queen St/Bourke St #4,000019.00
+aus:vic:vic-03-96:,96,17885,William St/Bourke St #3,000019.00
+aus:vic:vic-03-96:,96,17597,William St/Bourke St #3,000020.00
+aus:vic:vic-03-96:,96,17886,Queen St/Bourke St #4,000020.00
+aus:vic:vic-03-96:,96,17848,Spencer St/Bourke St #1,000021.00
+aus:vic:vic-03-96:,96,17887,Elizabeth St/Bourke St #5,000021.00
+aus:vic:vic-03-96:,96,18194,Southern Cross Railway Station/Spencer St #122,000022.00
+aus:vic:vic-03-96:,96,17888,Swanston St/Bourke St #6,000022.00
+aus:vic:vic-03-96:,96,18196,Batman Park/Spencer St #124,000023.00
+aus:vic:vic-03-96:,96,17889,Russell St/Bourke St #7,000023.00
+aus:vic:vic-03-96:,96,18197,Casino/MCEC/Clarendon St #124A,000024.00
+aus:vic:vic-03-96:,96,17891,Spring St/Bourke St #9,000024.00
+aus:vic:vic-03-96:,96,19304,Port Junction/Whiteman St #125,000025.00
+aus:vic:vic-03-96:,96,17892,Albert St/Nicholson St #10,000025.00
