@@ -1,0 +1,186 @@
+[
+  {
+    "q": "Can I take my bike on a tram?",
+    "a": "No, bicycles are not permitted on trams, but folding bikes are allowed if folded."
+  },
+  {
+    "q": "Do children need a ticket on trams?",
+    "a": "Children under 5 travel free. Children aged 5–18 need a child Myki or concession ticket."
+  },
+  {
+    "q": "Is Wi-Fi available on trams?",
+    "a": "No, trams do not have Wi-Fi, but many tram stops in the CBD have free public Wi-Fi nearby."
+  },
+  {
+    "q": "What should I do if I lose my Myki card?",
+    "a": "If registered, report the lost card online or by phone to block it and transfer the balance to a new card."
+  },
+  {
+    "q": "How do I know if a tram is low-floor accessible?",
+    "a": "Accessible services are marked in PTV timetables and apps with a wheelchair symbol."
+  },
+  {
+    "q": "Are pets allowed on trams?",
+    "a": "Small animals in secure carriers are allowed. Assistance animals like guide dogs can travel anytime."
+  },
+  {
+    "q": "Do trams accept cash for tickets?",
+    "a": "No, trams do not sell tickets. You must have a valid Myki card before boarding."
+  },
+  {
+    "q": "How do I check if my tram is delayed?",
+    "a": "Use the PTV app, website, or Twitter updates for live service information."
+  },
+  {
+    "q": "What is the Free Tram Zone?",
+    "a": "It covers Melbourne’s CBD and Docklands. Travel is free within this zone and no Myki is required."
+  },
+  {
+    "q": "How do I know which tram stop to get off at?",
+    "a": "Tram stops are announced and displayed on board. You can also check route maps on PTV apps."
+  },
+  {
+    "q": "Can I top up my Myki on the tram?",
+    "a": "No, top ups must be done before boarding via Myki machines, 7-Eleven stores, or the PTV app."
+  },
+  {
+    "q": "What happens if my Myki balance is negative?",
+    "a": "You can still finish your trip, but you must top up before your next journey."
+  },
+  {
+    "q": "How much is the tram fare in Melbourne?",
+    "a": "A daily fare is capped at $11 (full fare) and $5.50 (concession) as of 2025."
+  },
+  {
+    "q": "Do trams operate on public holidays?",
+    "a": "Yes, trams operate every day, but services may run to a Sunday or public holiday timetable."
+  },
+  {
+    "q": "Where can I find tram route maps?",
+    "a": "Route maps are available on the PTV website, PTV app, and at major tram stops."
+  },
+  {
+    "q": "Can international visitors use trams?",
+    "a": "Yes, anyone can use trams with a Myki card, available at retailers and PTV hubs."
+  },
+  {
+    "q": "What should I do if a Myki reader is not working?",
+    "a": "Try another reader on the tram. If all are faulty, you won’t be fined."
+  },
+  {
+    "q": "Can I carry luggage on trams?",
+    "a": "Yes, but you must keep luggage clear of aisles and doors for safety."
+  },
+  {
+    "q": "How early do trams start running in the morning?",
+    "a": "Most trams begin around 5am, with earlier services on some routes."
+  },
+  {
+    "q": "Are there express trams in Melbourne?",
+    "a": "No, all trams stop at every stop along their route."
+  },
+  {
+    "q": "Can I use contactless credit cards instead of Myki?",
+    "a": "No, Melbourne trams currently only accept Myki cards."
+  },
+  {
+    "q": "Are there penalties for not having a valid Myki?",
+    "a": "Yes, you may receive a fine of up to $305 if caught without a valid ticket."
+  },
+  {
+    "q": "What do the tram stop numbers mean?",
+    "a": "Each tram stop has a unique number for easier navigation on maps and apps."
+  },
+  {
+    "q": "Do trams announce the next stop?",
+    "a": "Yes, stops are announced over speakers and shown on electronic displays."
+  },
+  {
+    "q": "Can I travel with a stroller on trams?",
+    "a": "Yes, stroller are allowed, but please use the designated low-floor entrances."
+  },
+  {
+    "q": "How can I plan a tram journey?",
+    "a": "Use the journey planner on the PTV website or app to find routes and times."
+  },
+  {
+    "q": "Are there discounts for seniors on trams?",
+    "a": "Yes, seniors receive concession fares with a Seniors Myki card."
+  },
+  {
+    "q": "Can tourists get a special tram pass?",
+    "a": "Yes, the Myki Explorer pack is available for visitors and includes a preloaded card."
+  },
+  {
+    "q": "Do trams stop if no one presses the button?",
+    "a": "Yes, trams usually stop at every stop unless marked as 'Stop on request'."
+  },
+  {
+    "q": "Do trams run during major events?",
+    "a": "Yes, extra services often run for events like AFL games and Moomba Festival."
+  },
+  {
+    "q": "What should I do in an emergency on a tram?",
+    "a": "Use the emergency intercom to speak to the driver or call 000 if needed."
+  },
+  {
+    "q": "Are there school student passes for trams?",
+    "a": "Yes, students can apply for a PTV School Student ID card for concession fares."
+  },
+  {
+    "q": "Can I transfer between trams without extra cost?",
+    "a": "Yes, as long as your Myki has a valid fare, transfers between trams, trains, and buses are free within the time limit."
+  },
+  {
+    "q":" Which tram goes to Flinders Street Station?",
+    "a": "Trams 35,70, and 75 go to Flinders Street Station"
+  },
+  {
+    "q":"Can i get a refund for an unused myki pass?",
+    "a":"Refunds are available through PTV customer service for unused passes."
+  },
+  {
+    "q":"How do I report lost property on a Tram?",
+    "a":"Contact PTV customer service or use the lost property form on their website."
+  },
+  {
+    "q":"Can I use a single Myki card for multiple people?",
+    "a":"No, each passenger needs their own Myki card."
+  },
+  {
+    "q":"Which tram should I take to reach the airport?",
+    "a":"Trams do not go directly to Melbourne Airport; take a SkyBus or train."
+  },
+  {
+    "q":"Are there priority seats for elderly passengers?",
+    "a":"Yes, priority seating is available for seniors, pregnant passengers, and people with disabilities."
+  },
+  {
+    "q":"Which tram lines go through the CBD?",
+    "a":"Trams 1, 3, 5, 6, 16, 19, 35, 48, 55, 59, 64, 67, 70, 75, 86, and 96 go through the CBD."
+  },
+  {
+    "q":"Which trams stop at the University of Melbourne?",
+    "a":"Trams 1, 6, 8, 19, and 59 stop at Grattan Street near the University of Melbourne Parkville campus."
+  },
+  {
+    "q":"Which trams stop at RMIT University?",
+    "a":"Trams 1, 6, 8, 19, 58, and 59 stop along Swanston Street near RMIT University's Melbourne CBD campus."
+  },
+  {
+    "q":"How much does a Myki card cost?",
+    "a":"A new Myki card costs $6, and you need to top up with funds for travel. Fares depend on the zones you travel in; check the PTV website for current prices."
+  },
+  {
+    "q":"Do I need to touch on and off with Myki?",
+    "a":"Yes, you must touch on at the start and touch off at the end of your trip for trains and buses. On trams, you only need to touch on."
+  },
+  {
+    "q":"Can I tap on and off with my phone instead of a Myki card?",
+    "a":"Yes, you can use Mobile Myki on an Android phone to tap on and off for public transport. iPhone support is not yet available, so iOS users still need a physical Myki card."
+  },
+  {
+    "q": "Do trams run all night?",
+    "a": "No, most Melbourne trams do not run all night. Regular services usually stop around midnight, and the first trams start around 5:00 AM. Some overnight services operate on certain routes, so check the PTV website or app for night service details."
+  }
+]
