@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 import os
 from pathlib import Path
+from xml.parsers.expat import model
 import streamlit as st
 from typing import List
 from operator import itemgetter
+from scripts.faq_router import maybe_answer_faq
 
 # LangChain pieces
 from langchain_core.prompts import ChatPromptTemplate
@@ -51,16 +53,12 @@ with st.sidebar:
 # -------------------- LLM & Retriever --------------------
 @st.cache_resource(show_spinner=False)
 def get_llm(model: str, temperature: float):
-    return ChatOllama(
-        model=model,
-        temperature=temperature,
-        num_ctx=4096,
-        base_url="http://127.0.0.1:11434",
-    )
+    base_url = os.environ.get("TRAMMATE_OLLAMA_URL", "http://127.0.0.1:11434")
+    return ChatOllama(model=model, temperature=temperature, num_ctx=4096, base_url=base_url)
 
 @st.cache_resource(show_spinner=False)
 def get_chain(model: str, temperature: float, k: int):
-    retriever = get_retriever(k=k)  # uses FAISS index on disk
+    retriever = get_retriever(k=k, lambda_mult=mmr_lambda)  # uses FAISS index on disk
 
     def format_docs(docs: List[Document]) -> str:
         if not docs:
@@ -113,6 +111,14 @@ if ask:
     if not q_pre.strip():
         st.warning("Please type a question 🙂")
         st.stop()
+    
+    # >>> FAQ fast-path: return canonical text verbatim if matched
+    faq_ans = maybe_answer_faq(q_pre, threshold=90)   # adjust threshold 85–95 if you like
+    if faq_ans:
+        st.info("Answer from FAQ")
+        st.markdown(f"{faq_ans}\n\n[faq.json]")          # show the canonical answer exactly
+        st.session_state["last_docs"] = []  # no retrieved docs for FAQ
+        st.stop()
 
     try:
         chain = get_chain(model_name, temperature, top_k)
@@ -122,7 +128,7 @@ if ask:
     else:
         with st.spinner("Retrieving & generating…"):
             # re-run the retriever here so we can show chunks
-            retriever = get_retriever(k=top_k)
+            retriever = get_retriever(k=top_k, lambda_mult=mmr_lambda)
             docs = retriever.invoke(q_pre)  # modern API
             st.session_state["last_docs"] = docs
 
