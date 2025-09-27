@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 import csv
+import json
 from email.mime import text
 from importlib.resources import path
 import json, re
-from pathlib import Path
+from pathlib import Path, PurePath
 from pdfminer.high_level import extract_text
 from tqdm import tqdm
 import yaml
