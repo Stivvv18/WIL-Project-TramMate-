@@ -2,9 +2,14 @@
 from pathlib import Path
 import json
 from typing import Dict, Any, List, Optional
+from functools import lru_cache
 
 from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings
+try:
+    # preferred modern package
+    from langchain_huggingface import HuggingFaceEmbeddings
+except ImportError:  # graceful fallback if not installed
+    from langchain_community.embeddings import HuggingFaceEmbeddings
 
 ROOT = Path(__file__).resolve().parents[1]
 VSDIR = ROOT / "data/kb/vectorstore/faiss_index"
@@ -42,17 +47,27 @@ def preprocess_query(q: Optional[str]) -> str:
                 text = text.replace(a_l, str(canon).lower())
     return text
 
+@lru_cache(maxsize=1)
+def _cached_vs() -> FAISS:
+    if not VSDIR.exists():
+        raise FileNotFoundError(
+            f"FAISS index not found at {VSDIR}. "
+            "Build it first with: scripts/make_chunks.py then scripts/build_faiss.py"
+        )
+    # allow_dangerous_deserialization is required for FAISS docstore pickle
+    return FAISS.load_local(str(VSDIR), emb, allow_dangerous_deserialization=True)
+
 # --- load vector store and build a retriever ---
 def get_vectorstore() -> FAISS:
     # allow_dangerous_deserialization required for FAISS docstore pickle
-    return FAISS.load_local(str(VSDIR), emb, allow_dangerous_deserialization=True)
+    return _cached_vs()
 
-def get_retriever(k: int = 6):
+def get_retriever(k: int = 6, lambda_mult: float = 0.5):
     vs = get_vectorstore()
     # MMR => diverse results (policy + routes + landmarks)
     return vs.as_retriever(
         search_type="mmr",
-        search_kwargs={"k": k, "fetch_k": 35, "lambda_mult": 0.5},
+        search_kwargs={"k": k, "fetch_k": 35, "lambda_mult": float(lambda_mult)},
     )
 
 # --- metadata filter (manual, since FAISS has no native filters) ---
